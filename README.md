@@ -1,6 +1,6 @@
 <body>
     <h1>Email Verification Module Tutorial for PrestaShop 8.2.1</h1>
-    <p><strong>Author: Your Name</strong></p>
+    <p><strong>Author: Ken</strong></p>
     <p>This tutorial guides you through creating an <code>emailverification</code> module for PrestaShop 8.2.1 to enforce email verification for new customer registrations. The module sends a verification email with a unique link, sets the customer’s <code>active=0</code> until verified, and activates the account (<code>active=1</code>) upon link click. I resolved issues like missing logs and a registration form lacking <code>method</code> or <code>class</code> attributes using server-side logic, avoiding AJAX/JavaScript. Special thanks to <strong>Grok</strong>, created by <a href="https://x.ai">xAI</a>, for their invaluable assistance in development and debugging!</p>    <h2>Module Purpose</h2>
     <ul>
         <li>Enforces email verification for customer registration.</li>
