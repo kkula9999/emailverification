@@ -1,0 +1,6 @@
+Hello {firstname} {lastname},
+
+Thank you for registering! Please verify your email by visiting:
+{verification_link}
+
+If you did not create this account, please ignore this email.
