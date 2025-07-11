@@ -296,6 +296,11 @@ log_errors = On
         </code></pre>
         <p><strong>Security</strong>: <code>pSQL()</code> in <code>verify.php</code> prevents SQL injection.</p>
         <p><strong>Theme</strong>: Test with <code>classic</code> theme if issues arise.</p>
+</div>    <h2>Known issue</h2>
+    <ol>
+        <li>Register page, cannot redirect to homepage after account creation.</li>
+    </ol>    <h2>Credits</h2>
+    
     </div>    <h2>Flow Description</h2>
     <ol>
         <li>User visits <code>yourshopurl.com/index.php?controller=authentication&create_account=1</code>.</li>
